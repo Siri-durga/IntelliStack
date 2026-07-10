@@ -1,157 +1,164 @@
+
 # IntelliStack
+## Industrial Palletizing & Warehouse Optimization Platform
 
-## Smart Palletizing and Warehouse Optimization Platform
+> Intelligent pallet planning platform inspired by Industry 4.0 principles for smart manufacturing, packaging lines, and warehouse automation.
 
-> AI-powered industrial automation solution for intelligent pallet
-> planning and warehouse optimization.
-
-
-
-![Python](https://img.shields.io/badge/Python-3.x-blue)
-![OpenCV](https://img.shields.io/badge/OpenCV-Computer_Vision-green)
-![Industry4.0](https://img.shields.io/badge/Industry-4.0-orange)
-
-------------------------------------------------------------------------
+---
 
 ## Table of Contents
+- Executive Summary
+- Project Objectives
+- Problem Statement
+- Solution Overview
+- Key Features
+- Technology Stack
+- System Workflow
+- System Architecture
+- Functional Modules
+- Repository Structure
+- Industrial Applications
+- Engineering Concepts
+- Industry 4.0 Alignment
+- Future Enhancements
+- My Role & Contributions
+- Learning Outcomes
+- References
+- License
+- Author
 
--   Executive Summary
--   Project Objectives
--   Problem Statement
--   Solution Overview
--   Key Features
--   Technology Stack
--   System Workflow
--   System Architecture
--   Repository Structure
--   Functional Modules
--   Industrial Applications
--   Expected Benefits
--   Future Roadmap
--   My Role & Contributions
--   Learning Outcomes
--   License
--   Author
+---
 
-------------------------------------------------------------------------
+# Executive Summary
 
-## Executive Summary
+IntelliStack is an industrial automation project developed to improve palletizing operations in manufacturing plants, packaging facilities, distribution centers, and smart warehouses.
 
-**IntelliStack** is an industrial automation project that I developed to
-optimize palletizing operations for warehouses, logistics centers, and
-manufacturing facilities. The platform analyzes package dimensions,
-weight distribution, and handling constraints to generate stable,
-space-efficient pallet layouts. The project demonstrates Industry 4.0
-engineering principles through intelligent decision support and
-optimization.
+The platform analyzes package dimensions, weight distribution, orientation, and operational constraints before generating optimized pallet layouts that maximize pallet utilization while maintaining load stability.
 
-------------------------------------------------------------------------
+The project demonstrates practical applications of warehouse optimization, intelligent decision support, computer vision concepts, and Industry 4.0 engineering practices.
 
-## Project Objectives（目的）
+---
 
--   Maximize pallet utilization
--   Reduce manual planning
--   Improve warehouse productivity
--   Support heterogeneous packages
--   Generate stable stacking
--   Reduce logistics costs
--   Improve operational efficiency
--   Demonstrate Industry 4.0 concepts
+# Project Objectives（目的）
 
-------------------------------------------------------------------------
+- Optimize pallet utilization
+- Reduce manual pallet planning
+- Improve warehouse productivity
+- Support heterogeneous packages
+- Generate stable pallet layouts
+- Reduce transportation costs
+- Improve operational safety
+- Support smart manufacturing
 
-## Problem Statement
+---
 
-Conventional palletizing often depends on operator experience, leading
-to inconsistent layouts, poor pallet utilization, unstable loads, longer
-loading times, and increased transportation costs.
+# Problem Statement
 
-IntelliStack introduces an intelligent workflow that evaluates package
-constraints before recommending an optimized stacking strategy.
+Packaging and manufacturing industries frequently process products with different sizes and weights. Manual pallet planning often results in inconsistent stacking, wasted space, unstable loads, and increased logistics costs.
 
-------------------------------------------------------------------------
+IntelliStack addresses these challenges using an intelligent placement workflow that evaluates package constraints before producing an optimized pallet layout.
 
-## Solution Overview（ソリューション概要）
+---
 
-The system performs:
+# Solution Overview（ソリューション概要）
 
-1.  Package acquisition
-2.  Dimension analysis
-3.  Weight evaluation
-4.  Constraint processing
-5.  Placement optimization
-6.  Stability validation
-7.  Final pallet generation
+The platform performs:
 
-------------------------------------------------------------------------
+1. Package acquisition
+2. Dimension analysis
+3. Weight evaluation
+4. Constraint validation
+5. Placement optimization
+6. Stability verification
+7. Final pallet generation
 
-## Key Features
+---
 
--   Intelligent package analysis
--   AI-inspired placement strategy
--   Constraint-aware optimization
--   Weight balancing
--   Layer-based stacking
--   Warehouse visualization
--   Modular architecture
--   Decision support
+# Key Features
 
-------------------------------------------------------------------------
+- Intelligent package analysis
+- Constraint-aware placement
+- Weight balancing
+- Space optimization
+- Layer-wise stacking
+- Warehouse visualization
+- Modular architecture
+- Decision support
 
-## Technology Stack
+---
 
-  Category          Technology
-  ----------------- ---------------------------
-  Language          Python
-  Computer Vision   OpenCV
-  Optimization      Heuristic Algorithms
-  AI                Machine Learning Concepts
-  Visualization     Matplotlib / Plotly
-  Automation        Robotics Integration
+# Technology Stack
 
-------------------------------------------------------------------------
+| Category | Technology |
+|---|---|
+| Language | Python |
+| Computer Vision | OpenCV |
+| Optimization | Heuristic Algorithms |
+| Visualization | Matplotlib / Plotly |
+| AI Concepts | Machine Learning Concepts |
+| Documentation | Markdown |
 
-## System Workflow
+> Future integration: Docker, Qt/PySide HMI, PLC (IEC 61131-3), MQTT, OPC UA, Edge Computing.
 
-``` text
+---
+
+# System Workflow
+
+```text
 Package Input
- ↓
+      ↓
 Dimension Analysis
- ↓
+      ↓
 Weight Evaluation
- ↓
-Constraint Processing
- ↓
+      ↓
+Constraint Validation
+      ↓
 Placement Optimization
- ↓
+      ↓
 Stack Generation
- ↓
-Validation
- ↓
-Final Pallet Layout
+      ↓
+Stability Validation
+      ↓
+Optimized Pallet Layout
 ```
 
-------------------------------------------------------------------------
+---
 
-## System Architecture
+# System Architecture
 
-``` text
+```text
 Input Layer
-   ↓
-Analysis Engine
-   ↓
+    ↓
+Package Analysis Engine
+    ↓
 Optimization Engine
-   ↓
+    ↓
 Validation Engine
-   ↓
+    ↓
 Visualization Layer
 ```
 
-------------------------------------------------------------------------
+---
 
-## Repository Structure
+# Functional Modules
 
-``` text
+## Package Analysis
+Evaluates dimensions, weight, orientation and handling requirements.
+
+## Placement Optimization
+Uses heuristic strategies to maximize pallet utilization.
+
+## Stability Validation
+Verifies balanced stacking before finalization.
+
+## Visualization
+Provides an easy-to-understand pallet layout for operators.
+
+---
+
+# Repository Structure
+
+```text
 IntelliStack/
 ├── README.md
 ├── Documentation/
@@ -161,106 +168,118 @@ IntelliStack/
 └── Project_Presentation.pdf
 ```
 
-------------------------------------------------------------------------
+---
 
-## Functional Modules
+# Industrial Applications
 
-### Package Analysis
+- Packaging Equipment
+- Smart Warehouses
+- Factory Automation
+- Manufacturing Plants
+- Distribution Centers
+- Food Processing
+- Pharmaceutical Packaging
+- Automotive Manufacturing
 
-Analyzes package dimensions and handling constraints.
+---
 
-### Placement Optimization
+# Engineering Concepts
 
-Determines optimal placement using heuristic techniques.
+- Warehouse Optimization
+- Intelligent Decision Support
+- Computer Vision Concepts
+- Industrial Automation
+- Logistics Engineering
+- Process Optimization
+- Scalable Software Design
 
-### Stability Validation
+---
 
-Ensures balanced and secure pallet arrangements.
+# Industry 4.0 Alignment
 
-### Visualization
+- Intelligent warehouse operations
+- Digital decision support
+- Automation-ready architecture
+- Data-driven optimization
+- Future-ready integration with robotics and edge computing
 
-Displays the generated pallet layout.
+---
 
-------------------------------------------------------------------------
+# Future Enhancements
 
-## Industrial Applications
+- PLC integration (IEC 61131-3)
+- Qt / PySide HMI
+- Docker deployment
+- Edge computing
+- MQTT communication
+- OPC UA integration
+- Robotic palletizer integration
+- Conveyor synchronization
+- AI-assisted placement prediction
+- Real-time monitoring dashboard
 
--   Manufacturing
--   Smart Warehouses
--   Logistics
--   Distribution Centers
--   E-commerce Fulfillment
--   Automotive
--   Food Processing
--   Pharmaceutical Packaging
+---
 
-------------------------------------------------------------------------
+# My Role & Contributions
 
-## Expected Benefits
-
--   Better pallet utilization
--   Lower logistics cost
--   Faster loading
--   Improved safety
--   Reduced product damage
--   Better warehouse organization
-
-------------------------------------------------------------------------
-
-## Future Roadmap
-
--   AI prediction
--   Digital Twin
--   Robotic arm integration
--   IoT monitoring
--   Cloud deployment
--   Multi-pallet optimization
--   Real-time dashboards
-
-------------------------------------------------------------------------
-
-## My Role & Contributions
-
-**Role:** AI & Industrial Automation Developer
+**Role:** Software Developer – Industrial Automation & Warehouse Optimization
 
 ### Responsibilities
 
--   Designed the optimization workflow.
--   Developed pallet planning logic.
--   Applied computer vision concepts.
--   Built visualization workflow.
--   Prepared architecture and documentation.
+- Designed the optimization workflow.
+- Developed package analysis logic.
+- Built pallet placement strategy.
+- Designed modular system architecture.
+- Prepared technical documentation.
+- Researched warehouse optimization techniques.
 
-------------------------------------------------------------------------
+---
 
-## Learning Outcomes
+# Learning Outcomes
 
--   Industrial Automation
--   Computer Vision
--   Warehouse Optimization
--   Industry 4.0
--   Optimization Algorithms
--   Engineering Documentation
+- Industrial Automation
+- Warehouse Engineering
+- Optimization Algorithms
+- Computer Vision
+- Industry 4.0
+- Engineering Documentation
+- Industrial Software Design
 
-------------------------------------------------------------------------
+---
 
-## Author
+# References
+
+- Industry 4.0 Concepts
+- Smart Manufacturing
+- Warehouse Management Systems
+- Industrial Robotics
+- Logistics Engineering
+
+---
+
+# License
+
+This project is maintained for educational and portfolio purposes.
+
+---
+
+# Author
 
 **Siri Durga**
 
-B.Tech -- Computer Science & Engineering
+B.Tech – Computer Science & Engineering
 
-**Areas of Interest**
+### Areas of Interest
 
--   Artificial Intelligence
--   Industrial Automation
--   Full Stack Development
--   Smart Manufacturing
--   Computer Vision
--   Industry 4.0
+- Industrial Automation
+- Artificial Intelligence
+- Computer Vision
+- Full Stack Development
+- Smart Manufacturing
+- Warehouse Optimization
 
-------------------------------------------------------------------------
+---
 
-### Thank You
+## Thank You
 
 ありがとうございます。
