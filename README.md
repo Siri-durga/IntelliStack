@@ -257,11 +257,7 @@ IntelliStack/
 
 ---
 
-# License
 
-This project is maintained for educational and portfolio purposes.
-
----
 
 # Author
 
