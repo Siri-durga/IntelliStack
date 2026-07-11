@@ -222,7 +222,7 @@ IntelliStack/
 
 # My Role & Contributions
 
-**Role:** Software Developer – Industrial Automation & Warehouse Optimization
+**Role:** System Engineer – Industrial Automation & Warehouse Optimization
 
 ### Responsibilities
 
